@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>1574192a-2d5c-446d-bf48-096615d19062</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Identity.Web" Version="1.23" />
+		<PackageReference Include="Microsoft.Identity.Web.UI" Version="1.23" />
+		<PackageReference Include="RCL.Identity.AAD.Groups" Version="6.1.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\estore.MicroFrontEnd.Orders\estore.MicroFrontEnd.Orders.csproj" />
+	</ItemGroup>
+
+</Project>
